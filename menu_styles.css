@@ -1,0 +1,75 @@
+
+body {
+  background-color: #dcffe9;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.contenedor {
+  width: 500px;
+  margin: 50px auto;
+  
+}
+
+h1 {
+ color: #99d39d;
+ margin-bottom: 40px;
+ font-size: 32px;
+ text-align:center;
+ font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+}
+
+.p {
+  color: #90c292;
+  margin-bottom: 40px;
+  font-size: 18px;
+  text-align:center;
+  font-style:initial;
+}
+.boton {
+  background-color: #81c784;
+  color: #1b5e20;
+  width: 220px;
+  padding: 14px 10px;
+  margin: 10px;
+  border: 2px solid #66bb6a;
+  border-radius: 12px;
+  font-size: 17px;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(53, 17, 17, 0.1);
+  transition: all 0.67s ease;
+  
+}
+.boton:hover {
+ background-color: #66bb6a;
+ color: rgba(255, 255, 255, 0.726);
+ transform: translateY(-15px);
+ box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+ 
+}
+
+.fondo{
+  background-image: linear-gradient(rgba(2, 2, 2, 0.568), rgba(0, 0, 0, 0.425)), url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1USBtZAA18KH5O3ASE1OQmCfS1Qp__ZRsbONUIz7loLueDJPOKK1HnqfNyS_4nV0__ez-TOboOli25GxNNUeR0L-UhtMK0xPrCAq8zxmneh29lMRzL9x-TWTY36Fbb0d354vBCU6xyvYKzx6yR-f3WK4QV5hLPVmXZhp2yB9bsLvwFJXXM4TY709f2EnF/w341-h427/1000222611.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  width: 100%;
+  
+
+  display: flex;
+  flex-direction:initial;
+  justify-content: center;
+  align-items: center;
+  
+}

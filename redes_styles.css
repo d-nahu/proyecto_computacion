@@ -1,0 +1,50 @@
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+   
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYZFXnlCB3owY7-2OhV7h8MEPansItM5SUeC82QBeKO8jl5JRThmn6ZxzdOpxtPB10q3BSoFaev6eSZEpt8Hfg6PX6ktXNJILAPI8RkIXlAz7iWb4_WnMe0jq2e5CSJj6PhYYfLtZeuwoL2aj1rhk7cc9QQI6cy3dsb6sfl-dOGon42PBaFcYw0vT-CBLr/w128-h128-p-k-no-nu/n9dleoj8dgfc1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    
+  
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.content{
+  
+  width: 500px;
+  margin: 50px auto;
+  
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+   
+}
+
+.txt{
+  color: aliceblue;
+  font-size: 36px;
+  text-align:center;
+}
+
+.respuesta{
+  color: rgba(239, 245, 223, 0.932);
+  font-size: 19px;
+  text-align:center;
+  
+}
