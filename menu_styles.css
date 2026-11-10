@@ -53,7 +53,7 @@ h1 {
 .boton:hover {
  background-color: #66bb6a;
  color: rgba(255, 255, 255, 0.726);
- transform: translateY(-15px);
+ transform: translateX(-25px);
  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
  
 }
