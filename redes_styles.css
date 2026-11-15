@@ -1,24 +1,24 @@
 .fondo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-   
-    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYZFXnlCB3owY7-2OhV7h8MEPansItM5SUeC82QBeKO8jl5JRThmn6ZxzdOpxtPB10q3BSoFaev6eSZEpt8Hfg6PX6ktXNJILAPI8RkIXlAz7iWb4_WnMe0jq2e5CSJj6PhYYfLtZeuwoL2aj1rhk7cc9QQI6cy3dsb6sfl-dOGon42PBaFcYw0vT-CBLr/w128-h128-p-k-no-nu/n9dleoj8dgfc1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYZFXnlCB3owY7-2OhV7h8MEPansItM5SUeC82QBeKO8jl5JRThmn6ZxzdOpxtPB10q3BSoFaev6eSZEpt8Hfg6PX6ktXNJILAPI8RkIXlAz7iWb4_WnMe0jq2e5CSJj6PhYYfLtZeuwoL2aj1rhk7cc9QQI6cy3dsb6sfl-dOGon42PBaFcYw0vT-CBLr/w128-h128-p-k-no-nu/n9dleoj8dgfc1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   
-    
+  
   
 
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
-   
+
 }
 
 .contenedor-interno{
@@ -56,11 +56,11 @@
 }
 
 .boton:hover {
- background-color: #a6a7a76e;
- color: rgb(246, 245, 245);
- box-shadow: 0 6px 12px rgba(72, 72, 72, 0.447);
- transition: all 0.67s ease;
- transform:scale(1.2);
+  background-color: #6f707071;
+  color: rgb(246, 245, 245);
+  box-shadow: 0 4px 12px rgba(72, 72, 72, 0.447);
+  transition: all 1s ease;
+  transform:scale(1.2);
 }
 
 .rtcorrectas:active{
@@ -82,15 +82,19 @@
   font-family: "Alata", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)  
+
 }
 
 .respuesta{
-  color: rgba(221, 235, 158, 0.842);
+  color: rgba(234, 244, 192, 0.953);
   font-size: 19px;
-  -webkit-text-stroke: 0.8px black;
+  -webkit-text-stroke: 0.3px black;
   text-align:center;
   transform: scale(1.2);
- transition: 0.68s;  
+  transition: 1s;  
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)  
+
 }
 
 .respuesta:hover{
