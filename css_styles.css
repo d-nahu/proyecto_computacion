@@ -1,0 +1,107 @@
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  background-image: url('Cat2.jpg'); /* Poné el nombre de tu imagen */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.65);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-interno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Alinea todo a la izquierda */
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 750px;
+  padding: 30px;
+  background-color: white;
+  border-left: 10px solid coral; /* Borde grueso naranja a la izquierda */
+  border-radius: 10px;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Mantiene los botones pegados a la izquierda */
+  gap: 10px;
+  width: 100%;
+}
+
+.boton {
+  background-color: seashell; /* Blanco con un toque cálido */
+  color: black;
+  border: 2px solid coral;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 95%;
+  font-family: "Alata", sans-serif;
+  font-size: 16px;
+  text-align: left; /* Texto del botón alineado a la izquierda */
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: coral; /* Se pinta de naranja suave al pasar el mouse */
+  color: white;
+  transition: all 0.2s ease;
+  transform: translateX(8px); /* Se corre un poquito a la derecha */
+}
+
+.rtcorrectas:active {
+  background-color: mediumseagreen;
+  color: white;
+  transition: background-color 0s 0s;
+}
+
+.rtincorrectas:active {
+  background-color: tomato;
+  color: white;
+  transition: background-color 0s 0s;
+}
+
+.txt {
+  color: orangered;
+  font-size: 30px;
+  text-align: left; /* Pregunta alineada a la izquierda */
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 25px;
+}
+
+.respuesta {
+  color: darkslategray;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left; /* Respuesta alineada a la izquierda */
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.respuesta:hover {
+  transform: scale(1.05);
+}
