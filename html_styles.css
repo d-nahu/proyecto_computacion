@@ -1,0 +1,100 @@
+
+body {
+    padding: 40px 0 40px 6%;
+}
+
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(rgba(15, 15, 20, 0.543), rgba(15, 15, 20, 0.7)), url('cat7.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-interno {
+  background-image: linear-gradient(rgba(20, 20, 30, 0.626), rgba(20, 20, 30, 0.95)), url('cat3.jpg');
+  background-position: center;
+  
+  max-width: 620px;
+  padding: 40px 30px;
+  border-radius: 12px;
+  border: 3px solid rgba(145, 145, 144, 0.3);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.boton {
+  background-color: #252538; 
+  color: #f1f2f6;
+  box-shadow: 4px 4px 0px #8e8e8c;
+  border-radius: 6px;
+  padding: 14px 18px;
+  width: 100%;
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.6s ease;
+}
+
+.boton:hover {
+  background-color: #afadad; 
+  color: #000000;
+  transform: translate(4px, 4px);
+}
+
+.rtcorrectas:active {
+  background-color: #2ed573;
+  color: white;
+  transition: background-color 0s 0s;
+}
+
+.rtincorrectas:active {
+  background-color: #ff4757; 
+  color: white;
+  transition: background-color 0s 0s;
+}
+
+.txt {
+  color: #dcdbd8;
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.respuesta {
+  width: 100%;
+  color: #1a1a24;
+  background-color: #afadad; 
+  box-shadow: 4px 4px 0px #7e7d7d; 
+
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+
+  transition: 0.3s;
+}
+
+.respuesta:hover {
+  transform: scale(1.02);
+}
+
