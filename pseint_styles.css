@@ -1,0 +1,114 @@
+body {
+    padding: 40px 8%;
+    background-color: #f2f4f8;
+}
+
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(rgba(22, 22, 23, 0.612), rgba(135, 138, 145, 0.621)), url('catart.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-interno {
+  background-image: linear-gradient(rgba(97, 89, 89, 0.502), rgba(12, 12, 12, 0.525)), url('catart2.jpg');
+  background-position: center;
+  
+  max-width: 640px;
+  padding: 40px 30px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.boton {
+  background-color: #ffffff; 
+  color: #1e293b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  border-radius: 14px;
+  padding: 16px 20px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.boton:hover {
+  background-color: #f8fafc; 
+  color: #0f172a;
+  border-color: #cbd5e1;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.rtcorrectas:active {
+  background-color: #dcfce7;
+  border-color: #22c55e;
+  color: #166534;
+  transition: background-color 0s 0s;
+}
+
+.rtincorrectas:active {
+  background-color: #fee2e2; 
+  border-color: #ef4444;
+  color: #991b1b;
+  transition: background-color 0s 0s;
+}
+
+.txt {
+  color: #a8c1b4;
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+
+.respuesta {
+  width: 100%;
+  color: #334155;
+  background-color: #f1f5f9; 
+  box-shadow: none; 
+
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+
+  transition: 0.3s;
+}
+
+.respuesta:hover {
+  transform: scale(1.01);
+  background-color: #e2e8f0;
+}

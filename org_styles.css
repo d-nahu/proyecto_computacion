@@ -1,8 +1,6 @@
-.boton{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+body {
+    padding: 40px 10% 40px 10%;
+    background-color: #050508;
 }
 
 .fondo {
@@ -13,14 +11,101 @@
   height: 100vh;
   z-index: -1;
 
-  background-image: url('https://i.pinimg.com/736x/b1/3a/a2/b13aa2acb20e9738f8415561c0da44f7.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;  
-  
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-   
+
+  background-image: linear-gradient(rgba(63, 63, 69, 0.635), rgba(5, 5, 8, 0.447)), url('cat-pan.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-interno {
+  background-image: linear-gradient(rgba(31, 31, 41, 0.763), rgba(25, 25, 37, 0.543)), url('chiikawa.jpg');
+  background-position: center;
+  
+  max-width: 650px;
+  padding: 40px;
+  border-radius: 4px;
+  border: 1px solid #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.2), inset 0 0 15px rgba(0, 240, 255, 0.05);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+
+.boton {
+  background-color: #0d0d16; 
+  color: #00f0ff;
+  box-shadow: 3px 3px 0px #ffe600;
+  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  border-radius: 2px;
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid #00f0ff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.boton:hover {
+  background-color: #00f0ff; 
+  color: #050508;
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 0px #ffe600;
+}
+
+.rtcorrectas:active {
+  background-color: #00ff66;
+  color: #050508;
+  transition: background-color 0s 0s;
+}
+
+.rtincorrectas:active {
+  background-color: #ff0055; 
+  color: white;
+  transition: background-color 0s 0s;
+}
+
+.txt {
+  color: #ffffff;
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  font-style: normal;
+  text-shadow: 2px 2px 0px #ff0055, -2px -2px 0px #00f0ff;
+  letter-spacing: 1px;
+}
+
+.respuesta {
+  width: 100%;
+  color: #050508;
+  background-color: #ffe600; 
+  box-shadow: 3px 3px 0px #00f0ff; 
+
+  border-radius: 2px;
+  font-size: 17px;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.respuesta:hover {
+  transform: scale(1.02);
 }

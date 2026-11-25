@@ -1,0 +1,113 @@
+body {
+    padding: 40px 6% 40px 0;
+    direction: rtl;
+}
+
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(rgba(10, 10, 15, 0.562), rgba(122, 122, 136, 0.685)), url('cat-relax2.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: hue-rotate(200deg);
+}
+
+.contenedor-interno {
+  background-image: linear-gradient(rgba(20, 22, 40, 0.733), rgba(15, 10, 25, 0.95)), url('Kevin\ art.jpg');
+  background-position: center;
+  
+  max-width: 650px;
+  padding: 45px 35px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 100, 150, 0.4);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  direction: ltr; /* Corrige como lo leemos */
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+  gap: 15px;
+  width: 100%;
+}
+
+.boton {
+  background-color: #1f1a24; 
+  color: #ffb7c5;
+  box-shadow: -4px 4px 15px rgba(255, 105, 180, 0.15); 
+  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  border-radius: 10px;
+  padding: 16px 20px;
+  width: 100%;
+  font-size: 16px;
+  
+  cursor: pointer;
+  text-align: right; 
+  border: 1px solid rgba(255, 105, 180, 0.2);
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #ffb7c5; 
+  color: #1a1a24;
+  transform: translateY(-3px);
+  box-shadow: -4px 6px 20px rgba(255, 105, 180, 0.4);
+}
+
+.rtcorrectas:active {
+  background-color: #00d2d3;
+  color: #1a1a24;
+  transition: background-color 0s 0s;
+}
+
+.rtincorrectas:active {
+  background-color: #ff6b6b; 
+  color: white;
+  transition: background-color 0s 0s;
+}
+
+.txt {
+  color: #ffeef2;
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-align: right;
+}
+
+.respuesta {
+  width: 100%;
+  color: #1a1a24;
+  background-color: #ffb7c5; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.respuesta:hover {
+  transform: scale(1.01);
+}
