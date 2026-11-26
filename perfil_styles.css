@@ -1,0 +1,71 @@
+/* El fondo con el título "Yo" en el medio a la izquierda */
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+
+  background-image: linear-gradient(rgba(15, 15, 20, 0.543), rgba(15, 15, 20, 0.7)), url('WHAT_.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.txt {
+  color: #dcdbd8;
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  text-align: left;
+}
+
+/* La clase .foca para el artículo de los gatos */
+.foca {
+  margin-left: 250px; /* Deja espacio libre a la izquierda para que se vea "Yo" */
+  max-width: 700px;   /* Evita que las líneas de texto sean demasiado largas */
+  padding: 60px 40px;
+  color: #dcdbd8;     /* Color claro para que contraste con el fondo oscuro */
+  font-family: "Alata", sans-serif; /* Aprovecha la fuente que cargaste en el HTML */
+}
+
+.foca h1, .foca h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.foca p {
+  line-height: 1.6;
+}
+
+.boton {
+  background-color: #c6d499a1;
+  color: #293e2f;
+  width: 220px;
+  padding: 10px  1px;
+  margin: 10px;
+  border-radius: 0px;
+  font-size: 17px;
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 5px 4px 6px rgba(53, 17, 17, 0.1);
+  transition: all 0.67s ease;
+  
+}
+.boton:hover {
+ color: rgba(64, 61, 33, 0.726);
+ box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+ 
+}
