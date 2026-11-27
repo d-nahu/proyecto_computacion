@@ -1,4 +1,4 @@
-/* El fondo con el título "Yo" en el medio a la izquierda */
+
 .fondo {
   position: fixed;
   top: 0;
@@ -27,13 +27,13 @@
   text-align: left;
 }
 
-/* La clase .foca para el artículo de los gatos */
+
 .foca {
-  margin-left: 250px; /* Deja espacio libre a la izquierda para que se vea "Yo" */
-  max-width: 700px;   /* Evita que las líneas de texto sean demasiado largas */
+  margin-left: 250px;
+  max-width: 700px;   
   padding: 60px 40px;
-  color: #dcdbd8;     /* Color claro para que contraste con el fondo oscuro */
-  font-family: "Alata", sans-serif; /* Aprovecha la fuente que cargaste en el HTML */
+  color: #dcdbd8;    
+  font-family: "Alata", sans-serif;
 }
 
 .foca h1, .foca h2 {
